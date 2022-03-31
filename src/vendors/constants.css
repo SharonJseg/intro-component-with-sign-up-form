@@ -1,0 +1,15 @@
+:root {
+  /* Font families */
+  --ff: 'Poppins', sans-serif;
+
+  /* Font Sizes */
+  --fs-small: 0.6875rem;
+  --fs-base: 0.9375rem;
+  --fs-big: 3.125rem;
+
+  /* Colors */
+  --clr-pink: #ff7979;
+  --clr-green: #38cc8b;
+  --clr-purple: #5e54a4;
+  --clr-gray: #3d3b48;
+}
