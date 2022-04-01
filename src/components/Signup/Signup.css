@@ -12,6 +12,7 @@
   z-index: 1;
   max-width: 525px;
   text-align: left;
+  margin-right: 45px;
 }
 
 .signup__title {
@@ -65,15 +66,27 @@
   display: none;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 870px) {
   .signup {
     flex-direction: column;
     height: 100%;
   }
 
   .signup__wrapper {
-    max-width: 327px;
     text-align: center;
+    margin-right: 0;
+    margin-top: 60px;
+  }
+
+  .signup__subtitle {
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .signup__wrapper {
+    max-width: 327px;
+
     margin-top: 88px;
   }
 

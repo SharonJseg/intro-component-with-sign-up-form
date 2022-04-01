@@ -83,6 +83,12 @@
   filter: brightness(150%);
 }
 
+@media screen and (max-width: 870px) {
+  .signup__form {
+    margin-bottom: 60px;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .signup__form {
     padding: 24px;
