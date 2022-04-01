@@ -7,6 +7,7 @@
 
 .signup__form-input-wrapper {
   position: relative;
+  margin-bottom: 20px;
 }
 
 .signup__form-input {
@@ -18,6 +19,12 @@
   padding-left: 32px;
   font-size: 14px;
   font-weight: 600;
+}
+
+.signup__form-input_error {
+  outline: 2px solid var(--clr-pink);
+  outline-offset: -2px;
+  color: var(--clr-pink);
 }
 
 .signup__form-input::placeholder {
@@ -35,12 +42,12 @@
   color: var(--clr-pink);
   text-align: right;
   margin-top: 6px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 .signup__error-icon {
   position: absolute;
-  top: 50%;
+  top: 28px;
   right: 27px;
   transform: translateY(-50%);
 }
